@@ -52,20 +52,21 @@
 "다시 하기" 버튼: 새로운 게임을 시작합니다
 "메인으로" 버튼: 메인 화면으로 돌아갑니다.
 
-app/
-├── src/main/
-│   ├── java/com/example/tic_tac_toe/
-│   │   ├── MainActivity.kt          # 메인 화면 액티비티
-│   │   ├── GameActivity.kt          # 게임 플레이 액티비티
-│   │   └── ResultActivity.kt        # 결과 화면 액티비티
-│   │
-│   ├── res/
-│   │   └── layout/
-│   │       ├── activity_main.xml    # 메인 화면 레이아웃
-│   │       ├── activity_game.xml    # 게임 화면 레이아웃
-│   │       └── activity_result.xml  # 결과 화면 레이아웃
-│   │
-│   └── AndroidManifest.xml          # 앱 설정 파일
+Root<br>
+java/com/example/tic_tac_toe/<br>
+MainActivity.kt          # 메인 화면 액티비티<br>
+GameActivity.kt          # 게임 플레이 액티비티<br>
+ResultActivity.kt        # 결과 화면 액티비티<br>
+<br>
+res/<br>
+layout/<br>
+activity_main.xml    # 메인 화면 레이아웃<br>
+activity_game.xml    # 게임 화면 레이아웃<br>
+activity_result.xml  # 결과 화면 레이아웃<br>
+<br>
+AndroidManifest.xml          # 앱 설정 파일<br>
+
+
 
 🔧 기술 스택
 언어: Kotlin
